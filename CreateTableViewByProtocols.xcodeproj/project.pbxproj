@@ -15,6 +15,10 @@
 		ABA799D81C93BB9100F90541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA799D61C93BB9100F90541 /* LaunchScreen.storyboard */; };
 		ABA799E31C93BB9100F90541 /* CreateTableViewByProtocolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA799E21C93BB9100F90541 /* CreateTableViewByProtocolsTests.m */; };
 		ABA799EE1C93BB9100F90541 /* CreateTableViewByProtocolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA799ED1C93BB9100F90541 /* CreateTableViewByProtocolsUITests.m */; };
+		ABA799FD1C93BE6700F90541 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA799FC1C93BE6700F90541 /* Data.m */; };
+		ABA79A011C93C00900F90541 /* ngoctrinh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA799FE1C93C00900F90541 /* ngoctrinh.jpg */; };
+		ABA79A021C93C00900F90541 /* rebecca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA799FF1C93C00900F90541 /* rebecca.jpg */; };
+		ABA79A031C93C00900F90541 /* taylorswift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA79A001C93C00900F90541 /* taylorswift.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		ABA799E91C93BB9100F90541 /* CreateTableViewByProtocolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateTableViewByProtocolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA799ED1C93BB9100F90541 /* CreateTableViewByProtocolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateTableViewByProtocolsUITests.m; sourceTree = "<group>"; };
 		ABA799EF1C93BB9100F90541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA799FB1C93BE6700F90541 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		ABA799FC1C93BE6700F90541 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		ABA799FE1C93C00900F90541 /* ngoctrinh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ngoctrinh.jpg; sourceTree = "<group>"; };
+		ABA799FF1C93C00900F90541 /* rebecca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rebecca.jpg; sourceTree = "<group>"; };
+		ABA79A001C93C00900F90541 /* taylorswift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taylorswift.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,8 @@
 				ABA799CC1C93BB9100F90541 /* AppDelegate.m */,
 				ABA799CE1C93BB9100F90541 /* ViewController.h */,
 				ABA799CF1C93BB9100F90541 /* ViewController.m */,
+				ABA799FB1C93BE6700F90541 /* Data.h */,
+				ABA799FC1C93BE6700F90541 /* Data.m */,
 				ABA799D11C93BB9100F90541 /* Main.storyboard */,
 				ABA799D41C93BB9100F90541 /* Assets.xcassets */,
 				ABA799D61C93BB9100F90541 /* LaunchScreen.storyboard */,
@@ -117,6 +128,9 @@
 		ABA799C81C93BB9100F90541 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ABA799FE1C93C00900F90541 /* ngoctrinh.jpg */,
+				ABA799FF1C93C00900F90541 /* rebecca.jpg */,
+				ABA79A001C93C00900F90541 /* taylorswift.jpg */,
 				ABA799C91C93BB9100F90541 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,8 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA79A011C93C00900F90541 /* ngoctrinh.jpg in Resources */,
 				ABA799D81C93BB9100F90541 /* LaunchScreen.storyboard in Resources */,
+				ABA79A031C93C00900F90541 /* taylorswift.jpg in Resources */,
 				ABA799D51C93BB9100F90541 /* Assets.xcassets in Resources */,
+				ABA79A021C93C00900F90541 /* rebecca.jpg in Resources */,
 				ABA799D31C93BB9100F90541 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +290,7 @@
 				ABA799D01C93BB9100F90541 /* ViewController.m in Sources */,
 				ABA799CD1C93BB9100F90541 /* AppDelegate.m in Sources */,
 				ABA799CA1C93BB9100F90541 /* main.m in Sources */,
+				ABA799FD1C93BE6700F90541 /* Data.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
